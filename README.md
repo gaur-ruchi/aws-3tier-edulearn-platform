@@ -31,8 +31,8 @@ The solution demonstrates secure network design, application deployment, load ba
 
 * Custom VPC
 * Public and Private Subnets
-* Internet Gateway
-* NAT Gateway
+* Internet Gateway attached to public route table
+* NAT Gateway attached to both (app and database) private route tables
 * Route Tables
 * Security Groups
 * AWS Systems Manager Session Manager (SSM)
