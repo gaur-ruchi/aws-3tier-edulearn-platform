@@ -21,6 +21,8 @@ The solution demonstrates secure network design, application deployment, load ba
 * Application Load Balancer (ALB)
 * Amazon EC2 (Flask API)
 * Private Application Subnets
+* Application instances in an Auto Scaling Group
+
 
 ### Database Tier
 
