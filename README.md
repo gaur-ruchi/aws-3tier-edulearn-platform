@@ -4,7 +4,7 @@
 
 EduLearn is a production-inspired 3-tier web application deployed on AWS.
 
-The solution demonstrates secure network design, application deployment, load balancing, content delivery, and database integration using AWS services. The frontend is hosted on Amazon S3 and distributed through CloudFront, while a Flask-based API processes registration requests and stores user data in a MariaDB database hosted within a private subnet.
+The solution demonstrates secure network design, application deployment, load balancing, content delivery, auto scaling and database integration using AWS services. The frontend is hosted on Amazon S3 and distributed through CloudFront, while a Flask-based API processes registration requests and stores user data in a MariaDB database hosted within a private subnet.
 
 ---
 
