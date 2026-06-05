@@ -41,19 +41,7 @@ The solution demonstrates secure network design, application deployment, load ba
 
 ## Architecture Flow
 
-User
- ↓
-Route53
- ↓
-CloudFront
- ↓
-Amazon S3 Static Website
-
-Application Load Balancer
- ↓
-Flask API (EC2)
- ↓
-MariaDB Database (EC2)
+User → Route53 → CloudFront → Amazon S3 Static Website → Application Load Balancer → Flask API (EC2) → MariaDB Database (EC2)
 
 ---
 
