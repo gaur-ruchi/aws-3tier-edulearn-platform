@@ -1,0 +1,115 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial,sans-serif;
+background:#f4f7fb;
+}
+
+header{
+background:url('images/cloud-bg.jpg');
+background-size:cover;
+background-position:center;
+padding:100px 20px;
+text-align:center;
+color:white;
+}
+
+header h1{
+font-size:3rem;
+margin-bottom:20px;
+}
+
+header p{
+font-size:1.2rem;
+}
+
+.courses{
+padding:60px 10%;
+}
+
+.courses h2{
+text-align:center;
+margin-bottom:40px;
+}
+
+.course-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+width:100%;
+height:200px;
+padding:5px;
+object-fit:contain;
+}
+
+.card h3{
+padding:15px;
+}
+
+.card p{
+padding:0 15px 20px;
+}
+
+.registration{
+padding:60px 10%;
+background:white;
+}
+
+.registration h2{
+text-align:center;
+margin-bottom:30px;
+}
+
+form{
+max-width:600px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input,
+select,
+textarea{
+padding:12px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+textarea{
+height:120px;
+}
+
+button{
+background:#2563eb;
+color:white;
+border:none;
+padding:14px;
+cursor:pointer;
+border-radius:5px;
+}
+
+button:hover{
+background:#1d4ed8;
+}
+
+#message{
+text-align:center;
+margin-top:20px;
+font-weight:bold;
+color:green;
+}

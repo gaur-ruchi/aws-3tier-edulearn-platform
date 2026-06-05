@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn Cloud Academy</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>EduLearn Cloud Academy</h1>
+
+    <p>
+        Learn AWS, Docker, Terraform and Kubernetes
+        through hands-on cloud projects.
+    </p>
+
+</header>
+
+<section class="courses">
+
+    <h2>Our Courses</h2>
+
+    <div class="course-grid">
+
+        <div class="card">
+            <img src="images/aws.jpg" alt="AWS">
+            <h3>AWS Solutions Architect</h3>
+            <p>Build scalable and secure cloud infrastructure.</p>
+        </div>
+
+        <div class="card">
+            <img src="images/docker.jpg" alt="Docker">
+            <h3>Docker Fundamentals</h3>
+            <p>Containerize applications efficiently.</p>
+        </div>
+
+        <div class="card">
+            <img src="images/terraform.jpg" alt="Terraform">
+            <h3>Terraform Essentials</h3>
+            <p>Infrastructure as Code from scratch.</p>
+        </div>
+
+        <div class="card">
+            <img src="images/kubernetes.jpg" alt="Kubernetes">
+            <h3>Kubernetes Basics</h3>
+            <p>Deploy and scale cloud-native workloads.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="registration">
+
+    <h2>Course Registration</h2>
+
+    <form id="registrationForm">
+
+        <input
+            type="text"
+            id="fullname"
+            placeholder="Full Name"
+            required>
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Email Address"
+            required>
+
+        <input
+            type="text"
+            id="phone"
+            placeholder="Phone Number"
+            required>
+
+        <select id="course">
+
+            <option>AWS Solutions Architect</option>
+
+            <option>Docker Fundamentals</option>
+
+            <option>Terraform Essentials</option>
+
+            <option>Kubernetes Basics</option>
+
+        </select>
+
+        <select id="experience">
+            <option>Beginner</option>
+
+            <option>Intermediate</option>
+
+            <option>Advanced</option>
+
+        </select>
+
+        <textarea
+            id="comments"
+            placeholder="Learning Goals"
+            required>
+        </textarea>
+
+        <button type="submit">
+            Submit Registration
+        </button>
+
+    </form>
+
+    <div id="message"></div>
+
+</section>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
