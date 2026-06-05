@@ -47,7 +47,7 @@ User → Route53 → CloudFront → Amazon S3 Static Website → Application Loa
 
 ---
 
-# Live Demo
+## Live Demo
 https://gaur-ruchi.github.io/aws-3tier-edulearn-platform/
 
 ## Key Features
